@@ -1,15 +1,21 @@
-## Welcome to GitHub Pages
+## 欢迎来到我的博客
 
-You can use the [editor on GitHub](https://github.com/zytop/me/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+github好多年前，大家都开始玩啦，我这个菜鸟近几年才开始。github不仅可以管理项目，还可以搭建博客。技术人员，一般用的博客为博客园，CSDN多一些。看到朋友们都弄一个，我也开始弄起来，先找点资料看看，然后开始动手了。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      我的电脑是MAC的，其他系统也差不多。先看看我建博客的过程，已经成功了，而且很好用，大家可以看看我的网址https://lu-yuan.github.io .
 
-### Markdown
+　　(1)首先在github上注册账号，可以使用github，https://github.com/join?source=header-home
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+这个比较简单，填写用户名，邮箱，密码等就可以了。如果有账号了，我们接着看下面。
+
+　　(2)搭建github博客，需要用的东西，github page, jekyll模板。
+
+首先打开https://pages.github.com/，按照步骤一步一步来，
+
+第一步，先建一个项目仓库，名称很重要，要和用户名一致。
+
 
 ```markdown
-Syntax highlighted code block
 
 # this is my site blog
 ## nothing to show
@@ -26,12 +32,12 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+这里不知道写什么
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zytop/me/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+这里不知道写什么
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+这里不知道写什么
