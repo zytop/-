@@ -21,15 +21,6 @@
 ## nothing to show
 ### nothing to show ,too
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 这里不知道写什么
