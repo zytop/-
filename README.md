@@ -1,34 +1,29 @@
-## 欢迎来到我的博客
+## -
 
-博客园，CSDN。。。。。。。。看到朋友们都弄一个，我也开始弄起来，先找点资料看看，然后开始动手
+# JS 类型转换的应用
 
-      123123123123123.
+实现一个函数，运算结果可以满足如下预期结果：
+add(1)(2) // 3
+add(1, 2, 3)(10) // 16
+add(1)(2)(3)(4)(5) // 15
 
-　　(1)首先在github上注册账号，可以使用github，https://github.com/join?source=header-home
-
-这个比较简单，填写用户名，邮箱，密码等就可以了。如果有账号了，我们接着看下面。
-
-　　(2)搭建github博客，需要用的东西，github page, jekyll模板。
-
-首先打开https://pages.github.com/，按照步骤一步一步来，
-
-第一步，先建一个项目仓库，名称很重要，要和用户名一致。
-
-
-```markdown
-
-# this is my site blog
-## nothing to show
-### nothing to show ,too
-
+参考答案
 ```
 
-这里不知道写什么
+function add () {
+var args = Array.prototype.slice.call(arguments);
 
-### Jekyll Themes
+var fn = function () {
+    var arg_fn = Array.prototype.slice.call(arguments);
+    return add.apply(null, args.concat(arg_fn));
+}
 
-这里不知道写什么
+fn.valueOf = function () {
+    return args.reduce(function(a, b) {
+        return a + b;
+    })
+}
 
-### Support or Contact
-
-这里不知道写什么
+return fn;
+}
+```
