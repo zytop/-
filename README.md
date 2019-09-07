@@ -1,9 +1,7 @@
 **<<2017年下半年软件评测师考试上午真题（专业解析+参考答案）>>**
 
 ------
-
-![](https://github.com/zytop/-/tree/master/pics/1.png)
-
+<img src="https://github.com/zytop/-/tree/master/pics/1.png"/>
 <details>
 <summary>展开查看答案和解析</summary>
 <pre><code>
