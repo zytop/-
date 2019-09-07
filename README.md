@@ -1,8 +1,7 @@
 **<<2017年下半年软件评测师考试上午真题（专业解析+参考答案）>>**
 
 ------
-<img src="https://github.com/zytop/-/tree/master/pics/1.png" />
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/ewm.png" width="250" height="250"/>
+<img src="https://github.com/zytop/-/tree/master/pics/1.png" width="600" height="200"/>
 
 <details>
 <summary>展开查看答案和解析</summary>
